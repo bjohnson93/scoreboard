@@ -1,0 +1,27 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1599158150601-1417ebbaafdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80');
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.blue-glass-box {
+  /* From https://css.glass */
+  background: rgba(33, 56, 208, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 1px solid rgba(60, 73, 158, 0.33);
+}
+
+.red-glass-box {
+  /* From https://css.glass */
+  background: rgba(208, 33, 33, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 1px solid rgba(158, 60, 60, 0.33);
+}
